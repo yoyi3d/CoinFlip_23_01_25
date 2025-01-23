@@ -1,0 +1,2 @@
+- Personalizar la moneda
+- Mostrar un texto de: ¡Es Cara! o ¡Es Cruz! (Cuando la moneda pare de girar)

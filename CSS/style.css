@@ -65,24 +65,32 @@ section{
 /* ANIMATION */
 
 @keyframes coincara {
-from{
-    transform: rotateX(0);
+    0%{
+        transform: rotateX(0) translateY(0px) ;
+        }
 
-}
+    5%{
+        transform: translateY(-120px); 
+    }
 
-to{
-    transform: rotateX(1800deg);
-}
+    100%{
+        
+        transform: rotateX(1800deg) translateY(0px);
+    }
 }
 
 @keyframes coincruz{
-    from{
-        transform: rotateX(0);
-    
+    0%{
+        transform: rotateX(0) translateY(0px);
+        }
+
+    5%{
+        transform: translateY(-120px); 
     }
-    
-    to{
-        transform: rotateX(1980deg);
+
+    100%{
+        
+        transform: rotateX(1980deg) translateY(0px);
     }
 
 }
